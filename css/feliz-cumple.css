@@ -42,6 +42,8 @@
   
   body {
     background-color: #cfe8ff;
+    display: flex;
+    justify-content: center;
   }
   
   main {
@@ -51,8 +53,10 @@
     gap: 3rem;
     justify-content: center;
     align-items: center;
-    margin-top: 40vh;
-    height: 60vh;
+    margin-top: 400px;
+    width: 80%;
+
+    padding-bottom: 50px;
   }
   
   .container-letter {
@@ -125,7 +129,7 @@
       top: 0;
     }
     100% {
-      top: -370px;
+      top: -350px;
     }
   }
   
